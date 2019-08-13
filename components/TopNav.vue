@@ -12,7 +12,7 @@
       </a>
     </div>
     <div class="w-1/5 text-right">
-      <div class="text-gray-500 text-2xl float-right pr-8 py-4">
+      <div class="text-gray-500 text-2xl pr-8 py-4">
         <a href="https://www.linkedin.com/in/caseyprovost/" target="_new" class="mx-1 hover:text-blue-700">
           <font-awesome-icon :icon="['fab', 'linkedin']" />
         </a>
