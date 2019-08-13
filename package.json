@@ -1,7 +1,7 @@
 {
-  "name": "caseyprovost_v2",
+  "name": "CaseyProvost",
   "version": "1.0.0",
-  "description": "my personal site",
+  "description": "all about me",
   "author": "Casey Provost",
   "private": true,
   "scripts": {

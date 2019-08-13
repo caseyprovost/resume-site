@@ -21,7 +21,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
   .active {
     @apply text-blue-600
   }

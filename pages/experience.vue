@@ -34,7 +34,7 @@
 </template>
 
 <script>
-import TopNav from '../components/TopNav'
+import TopNav from '~/components/TopNav'
 
 export default {
   components: {
@@ -42,10 +42,3 @@ export default {
   }
 }
 </script>
-
-<style>
-body {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-}
-</style>

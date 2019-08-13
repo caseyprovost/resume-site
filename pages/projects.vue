@@ -7,7 +7,7 @@
       </h2>
       <p class="text-xl text-gray-700 w-11/12 mt-4">
         This was an enormous project! I came in a senior engineer to help re-architect and rebuild (from scratch) an internal tool to AEG. It had various integrations with banks, internal apps, and had to allow for concurrent usage with the legacy system. At the end, I was able to help deliver the application on schedule and with a joyful experience that our stakeholders loved.
-        <br /><br />
+        <br><br>
         The stack and tooling was: Ember on the front-end, Rails JSON:API on the backend, webhooks for various integrations, custom MSSQL sync with their data warehouse, and Redis for background jobs.
       </p>
       <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-3xl md:font-light text-gray-700 border-b w-11/12 mt-10">
@@ -15,7 +15,7 @@
       </h2>
       <p class="text-xl text-gray-700 w-11/12 mt-4">
         This was a project of love. For 8 years I maintained, ran, and developed the MyMedlab platform. This included but was not limited to: rebuilding lab integrations, on-call fire snuffing, enhancing payment security, and updating infrastructure to improve patient data security.
-        <br /><br />
+        <br><br>
         The stack and tooling was: Rails (fullstack), webhooks for various integrations, and CRON for syncing lab data.
       </p>
       <h2 class="text-xl sm:text-2xl md:text-3xl lg:text-3xl md:font-light text-gray-700 border-b w-11/12 mt-10">
@@ -23,8 +23,7 @@
       </h2>
       <p class="text-xl text-gray-700 w-11/12 mt-4">
         This is a truly interesting project. It was more of a team-addition rather than a staff augmentation. My general duties were the usual building of features and bug fixing. But what made it interesting was the mentorship of new Rails devs to help level-up the internal team.
-
-        <br /><br />
+        <br><br>
         The stack and tooling was: Rails (fullstack), docker, StimulusJS, and Redis for background jobs.
       </p>
     </div>
@@ -32,7 +31,7 @@
 </template>
 
 <script>
-import TopNav from '../components/TopNav'
+import TopNav from '~/components/TopNav'
 
 export default {
   components: {
@@ -40,10 +39,3 @@ export default {
   }
 }
 </script>
-
-<style>
-body {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-}
-</style>

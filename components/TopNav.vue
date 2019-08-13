@@ -14,13 +14,13 @@
     <div class="w-1/5 text-right">
       <div class="text-gray-500 text-2xl float-right pr-8 py-4">
         <a href="https://www.linkedin.com/in/caseyprovost/" target="_new" class="mx-1 hover:text-blue-700">
-          <font-awesome-icon :icon="['fab', 'linkedin']"/>
+          <font-awesome-icon :icon="['fab', 'linkedin']" />
         </a>
         <a href="https://github.com/caseyprovost" target="_new" class="mx-1 hover:text-blue-700">
-          <font-awesome-icon :icon="['fab', 'github']"/>
+          <font-awesome-icon :icon="['fab', 'github']" />
         </a>
         <a href="https://twitter.com/caseyprovost" target="_new" class="mx-1 hover:text-blue-700">
-          <font-awesome-icon :icon="['fab', 'twitter']"/>
+          <font-awesome-icon :icon="['fab', 'twitter']" />
         </a>
       </div>
     </div>
@@ -37,7 +37,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .top-nav {
   @apply flex w-full border-b border text-gray-700;
 }
